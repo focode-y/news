@@ -38,6 +38,23 @@ a {
   padding: 14px 0 24px;
 }
 
+.yara-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.yara-brand-logo {
+  height: 68px;
+  width: auto;
+  display: block;
+}
+
 .sina-topbar {
   display: flex;
   justify-content: space-between;

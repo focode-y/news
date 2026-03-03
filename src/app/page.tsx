@@ -112,6 +112,13 @@ export default async function Home({ searchParams }: PageProps) {
   return (
     <div className="sina-page min-h-screen">
       <main className="sina-wrap">
+        <a href="https://www.yaracodes.com/" className="inline-block transition-transform active:scale-95 hover:opacity-90" target="_blank" rel="noreferrer">
+          <img
+            src="/yaralogo.png"
+            alt="主站Logo"
+            className="h-12 w-auto max-w-[200px] object-contain"
+          />
+        </a>
         <header className="sina-topbar">
           <div>
             <h1 className="sina-title">新闻滚动</h1>
